@@ -9,4 +9,4 @@ require (
 	github.com/throttled/throttled/v2 v2.7.1
 )
 
-replace github.com/h2non/bimg => ./bimg
+replace github.com/h2non/bimg => ./bimg/
