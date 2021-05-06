@@ -43,7 +43,7 @@ ENV GO111MODULE=on
 
 COPY go.mod .
 COPY go.sum .
-
+COPY ./bimg/* ./bimg/
 RUN go mod download
 
 # Copy imaginary sources
@@ -94,7 +94,8 @@ ENV PORT 9000
 USER nobody
 
 # Run the entrypoint command by default when the container starts.
-ENTRYPOINT ["/usr/local/bin/imaginary"]
+ENTRYPOINT ["/usr/local/bin/imaginary", "-enable-url-source"]
 
 # Expose the server TCP port
 EXPOSE ${PORT}
+

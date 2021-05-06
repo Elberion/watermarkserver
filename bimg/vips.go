@@ -328,9 +328,9 @@ func vipsWatermark(image *C.VipsImage, w Watermark) (*C.VipsImage, error) {
 	var out *C.VipsImage
 
 	// Defaults
-	noReplicate := 0
+	noReplicate := 1
 	if w.NoReplicate {
-		noReplicate = 1
+		noReplicate = 0
 	}
 
 	text := C.CString(w.Text)
