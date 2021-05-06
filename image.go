@@ -4,14 +4,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"io"
 	"io/ioutil"
 	"math"
 	"net/http"
 	"strings"
-
-
 )
 
 // OperationsMap defines the allowed image transformation operations listed by name.

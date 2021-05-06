@@ -1,10 +1,8 @@
 package main
 
 import (
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"strings"
-
-
 )
 
 // ExtractImageTypeFromMime returns the MIME image type.

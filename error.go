@@ -3,11 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"net/http"
 	"strings"
-
-
 )
 
 var (

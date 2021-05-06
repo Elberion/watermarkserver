@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"io/ioutil"
 	"log"
 	"net/url"
@@ -13,8 +13,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-
 )
 
 var (

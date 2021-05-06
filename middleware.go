@@ -5,11 +5,10 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"fmt"
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"net/http"
 	"strings"
 	"time"
-
 
 	"github.com/rs/cors"
 	"github.com/throttled/throttled/v2"

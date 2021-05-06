@@ -3,13 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"mime"
 	"net/http"
 	"path"
 	"strconv"
 	"strings"
-
 
 	"github.com/h2non/filetype"
 )

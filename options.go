@@ -1,11 +1,9 @@
 package main
 
 import (
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"strconv"
 	"strings"
-
-
 )
 
 // ImageOptions represent all the supported image transformation params as first level members

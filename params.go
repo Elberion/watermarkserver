@@ -4,13 +4,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Elberion/watermarkServer/bimg"
+	"github.com/h2non/bimg"
 	"math"
 	"net/url"
 	"strconv"
 	"strings"
-
-
 )
 
 var ErrUnsupportedValue = errors.New("unsupported value")
