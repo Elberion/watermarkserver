@@ -94,7 +94,7 @@ ENV PORT 9000
 USER nobody
 
 # Run the entrypoint command by default when the container starts.
-ENTRYPOINT ["/usr/local/bin/imaginary", "-enable-url-source"]
+ENTRYPOINT ["/usr/local/bin/imaginary", "-enable-url-source" , "-concurrency", "50"]
 
 # Expose the server TCP port
 EXPOSE ${PORT}
